@@ -37,13 +37,14 @@
   border: 1px solid #0066CC;
   border-radius: 20px;
   cursor: pointer;
-  transition: 0.3s eaas-in-out background-color, 0.3s eaas-in-out border-color;
+  transition: 0.3s ease-in-out background-color, 0.3s ease-in-out border-color;
 }
 
 .button:hover {
   background-color: #054c94;
   border-color: #054c94;
 }
+
 .button:active {
   border-color: #054c94;
 }
